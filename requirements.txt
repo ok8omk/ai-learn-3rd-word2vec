@@ -1,2 +1,5 @@
 numpy
 tensorflow
+beautifulsoup4
+lxml
+pillow
