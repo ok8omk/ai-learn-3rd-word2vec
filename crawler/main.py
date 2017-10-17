@@ -21,7 +21,7 @@ def get_logo_url(html):
     logo_url = url + logo_src
     return logo_url
 
-def save_logo_url(logo_url):
+def save_logo_png(logo_url):
     binimg = urllib.request.urlopen(logo_url)
     binimg_o = io.BytesIO(binimg.read())
     img = Image.open(binimg_o)

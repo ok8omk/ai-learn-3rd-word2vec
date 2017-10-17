@@ -1,5 +1,5 @@
-numpy
-tensorflow
 beautifulsoup4
 lxml
 pillow
+mecab-python3
+gensim
