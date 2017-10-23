@@ -30,4 +30,4 @@ def save_logo_png(logo_url):
 if __name__ == '__main__':
     html = get_html()
     logo_url = get_logo_url(html)
-    save_logo_url(logo_url)
+    save_logo_png(logo_url)
