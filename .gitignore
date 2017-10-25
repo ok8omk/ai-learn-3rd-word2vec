@@ -1,6 +1,7 @@
 .DS_Store
 .envrc
 .direnv
+entity_vector/
 venv/
 crawler/logo.png
 word2vec/model.tar.bz2
