@@ -3,6 +3,5 @@
 .direnv
 venv/
 crawler/logo.png
-word2vec/model.tar.bz2
-word2vec/entity_vector
-word2vec/entity_vector/*
+word2vec/models/*.model
+word2vec/models/entity_vector.model.bin
