@@ -1,9 +1,8 @@
 # coding : UTF-8
 from gensim.models import KeyedVectors
 
-
 model = KeyedVectors.load_word2vec_format( \
-        "./entity_vector/entity_vector.model.bin", binary=True)
+        "./models/entity_vector.model.bin", binary=True)
 
 def similar():
     while True:
